@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ehud Suryano</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/theme-switcher.css">
+</head>
+<body>
+    <div id="container--main">
+        <a href="index.html">&#x2190; Go Back</a>
+        <h1>Developing a generic Infrastructure software suite in C# for testing web pages using Selenium web driver</h1>
+
+
+        <h2>About the Framework</h2>
+        <p>
+            A powerful and scalable infrastructure software suite developed in <strong>Python</strong> for automating web application testing using
+            <strong>Selenium WebDriver</strong>. This framework combines modern testing principles with versatile tools to ensure high-quality and maintainable test automation.
+        </p>
+        <ul>
+            <li><a href="https://github.com/ehudsuryano/python-selenium-infrastructure/">Source code --work in progress</a></li>
+        </ul>
+        <video controls width="600">
+            <source src="./assets/videos/selenium_python.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <section>
+
+
+            <h3>Key Features</h3>
+            <ul>
+                <li><strong>Cross-Browser Compatibility:</strong> Supports Chrome, Firefox, Edge, and Safari, including headless testing.</li>
+                <li><strong>Page Object Model (POM):</strong> Simplifies test development with reusable, maintainable page-specific modules.</li>
+                <li><strong>Comprehensive Reporting:</strong> Generates detailed HTML reports using <strong>pytest-html</strong> and interactive, visually rich reports using <strong>Allure Reports</strong>.</li>
+                <li>
+                    <strong>Layered Architecture:</strong> Organized into separate layers for:
+                    <ul>
+                        <li>Test cases</li>
+                        <li>Page interactions</li>
+                        <li>Business logic</li>
+                        <li>Utilities (e.g., configuration, logging)</li>
+                    </ul>
+                </li>
+                <li><strong>Scalability:</strong> Supports parallel execution and integrates seamlessly with CI/CD pipelines.</li>
+            </ul>
+
+            <h3>Technologies Used</h3>
+            <ul>
+                <li><strong>Programming Language:</strong> Python</li>
+                <li><strong>Automation Framework:</strong> Selenium WebDriver</li>
+                <li><strong>Test Framework:</strong> Pytest</li>
+                <li><strong>Reporting Tools:</strong> pytest-html, Allure Reports</li>
+            </ul>
+
+            <h3>How It Works</h3>
+            <p>
+                The framework initializes tests dynamically based on configurations, including browser type and execution mode (e.g., headless). It uses POM classes to perform UI interactions and organizes test logic across distinct layers. During test execution, it logs each step and generates detailed reports with actionable insights, including screenshots for failures.
+            </p>
+        </section>
+    </div>
+    <div id="theme-switcher">
+        <div class="theme" id="theme-light" data-theme="light"></div>
+        <div class="theme" id="theme-dark" data-theme="dark"></div>
+    </div>
+</body>
+<script src="js/theme-switcher.js"></script>
+</html>
